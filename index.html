@@ -43,7 +43,7 @@
 
         .area1 {
             /* border: 1px solid red; */
-            width: 120px;
+            width: 140px;
             text-align: center;
             display: flex;
             justify-content: space-evenly;
@@ -261,7 +261,7 @@
         .c4 p {
             font-family: 'Dancing Script', cursive;
             font-size: 30px;
-            margin-left: 230px;
+            margin-left: 180px;
             opacity: 0;
             animation: title 1s ease-in-out;
             animation-fill-mode: forwards;
@@ -302,7 +302,7 @@
         .about_title {
             font-family: 'Dancing Script', cursive;
             font-size: 25px;
-            margin-left: 280px;
+            margin-left: 220px;
         }
 
         .about_detail {
@@ -387,8 +387,8 @@
     <div class="all">
         <div class="c1">
             <div class="area1 ">
-                <a href="#op">about</a>
-                <a href="#cu">contact</a>
+                <a href="#op">聚會資訊</a>
+                <a href="#cu" data-toggle="modal" data-target="#exampleModalCenter">奉獻匯款</a>
             </div>
             <div class="area2 ">
                 <p>礁溪基督長老教會</p>
@@ -437,7 +437,7 @@
         </div>
 
         <div class="c4">
-            <p>寫照 Gathering Picture</p>
+            <p>最近活動寫照 Latest Activities Picture</p>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -475,7 +475,7 @@
         </div>
         <!--  -->
         <div class="about" id="op">
-            <p class="about_title">詳細資訊 Detail</p>
+            <p class="about_title">聚會資訊 Gathering Information</p>
             <div class="about_detail">
                 <p>主日禮拜時間:上午09:45-11:15</p>
                 <p>電話：(03)9889023 </p>
@@ -484,6 +484,31 @@
             </div>
 
 
+        </div>
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">奉獻匯款</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        宜蘭縣礁溪鄉農會<br>
+                        代碼:587-0017<br>
+                        帳號:58701-01-011649-9<br>
+                        帳戶專名:台灣基督長老教會礁溪教會
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn" style="background-color: brown;color: #fff;"
+                            data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- <div class="c7" id="cu">
             <div>
