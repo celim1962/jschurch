@@ -31,7 +31,8 @@
 
         .all {
             background-color: white;
-            width: 1000px;
+            /* width: 1000px; */
+            width: 70vw;
             /* height: 2235px; */
             margin: 0px auto;
             margin-top: 10px;
@@ -39,8 +40,9 @@
         }
 
         .c1 {
-            /* border: 1px solid blue; */
-            width: 1000px;
+            border: 1px solid blue;
+            /* width: 1000px; */
+            width: 100%;
             height: 100px;
             display: flex;
             justify-content: space-evenly;
@@ -49,7 +51,7 @@
         }
 
         .area1 {
-            /* border: 1px solid red; */
+            border: 1px solid red;
             width: 180px;
             text-align: center;
             margin-top: 40px;
@@ -59,6 +61,7 @@
             animation: title 1s ease-in-out;
             animation-fill-mode: forwards;
             animation-delay: .4s;
+            visibility: hidden;
         }
 
         .area1 a {
@@ -70,8 +73,13 @@
 
         }
 
+        .area2 {
+            display: flex;
+            justify-content: center;
+        }
+
         .area2 p {
-            width: 600px;
+            /* width: 600px; */
 
             /* border: 1px  solid blue; */
             /* font-family: "微軟正黑體"; */
@@ -397,6 +405,17 @@
                 opacity: 1;
             }
         }
+
+        .c2,
+        .c3,
+        .c4,
+        .c5,
+        .c6,
+        .c7,
+        .introduction,
+        .about {
+            display: none;
+        }
     </style>
     <!-- <script>
         function f() {
@@ -407,6 +426,48 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">礁溪教會</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">教會歷史</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        各部消息
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#1">小會</a>
+                        <a class="dropdown-item" href="#2">聖歌隊</a>
+                        <a class="dropdown-item" href="#3">婦女團契</a>
+                        <a class="dropdown-item" href="#4">社青團契</a>
+                        <a class="dropdown-item" href="#5">松年團契</a>
+                        <a class="dropdown-item" href="#6">青少契</a>
+                        <a class="dropdown-item" href="#7">主日學</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">奉獻資訊</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal"
+                        data-target="#exampleModalCenterforgooglemap">查看地圖</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">礁溪教會</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -421,7 +482,7 @@
                     <a class="nav-link" href="#">教會歷史</a>
                 </li>
 
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown"
+                 <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">各部消息</a>
                 <div class="dropdown-menu" style="margin-left: 170px;" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#1">小會</a>
@@ -431,7 +492,7 @@
                     <a class="dropdown-item" href="#5">松年團契</a>
                     <a class="dropdown-item" href="#6">青少契</a>
                     <a class="dropdown-item" href="#7">主日學</a>
-                </div>
+                </div> 
 
 
                 <li class="nav-item">
@@ -443,29 +504,25 @@
                 </li>
 
             </ul>
-            <form class="form-inline">
+             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            </form> 
         </div>
-    </nav>
+    </nav> -->
     <div class="all">
 
-        <div class="c1 ">
+        <div class="row c1">
 
-            <div class="area1 col-12 col-md-4">
-                <!-- <a href="#op">聚會資訊</a>
-                <a href="#cu" data-toggle="modal" data-target="#exampleModalCenter">奉獻匯款</a>
-                <a href="#cu" data-toggle="modal" data-target="#exampleModalCenterforgooglemap">地圖</a> -->
-
-
+            <div id="area1" class="area1  col-md-4">
+                1111
             </div>
 
 
-            <div class="area2 col-12 col-md-6">
-                <p>礁溪基督長老教會</p>
+            <div class="area2 col-9 col-md-6">
+                <p id="church_title">礁溪基督長老教會</p>
             </div>
-            <div class="area3 col-12 col-md-2" id="social_icon">
+            <div class="area3 col-3 col-md-2" id="social_icon">
                 <a
                     href="https://www.facebook.com/%E5%8F%B0%E7%81%A3%E5%9F%BA%E7%9D%A3%E9%95%B7%E8%80%81%E6%95%99%E6%9C%83%E7%A4%81%E6%BA%AA%E6%95%99%E6%9C%83-132950057234791/"><i
                         class="fab fa-facebook-square s1"></i></a>
@@ -512,7 +569,7 @@
                 </a>
             </div>
         </div>
-        <div class="c2">
+        <div class="c2 ">
             <p>駐堂牧師 Our Pastor</p>
         </div>
         <div class="c3">
@@ -669,7 +726,15 @@
         window.onresize = function () {
             console.log("偵測到螢幕寬度正在改變");
             console.log(document.body.clientWidth);
+            if (document.body.clientWidth < 570) {
+                document.getElementById("church_title").style.fontSize = "30px";
+                document.getElementById("area1").hidden = true;
 
+            } else {
+                document.getElementById("church_title").style.fontSize = "40px";
+                document.getElementById("area1").hidden = false;
+
+            }
         }
     </script>
 </body>
