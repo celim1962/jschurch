@@ -5,7 +5,7 @@ function rwd() {
 
     if (document.body.clientWidth < 980) {
         console.log("md size");
-        document.getElementById("maintitle").style.fontSize = "20px";
+        document.getElementById("maintitle").style.fontSize = "30px";
         document.getElementById("c2p").style.fontSize = "22px";
 
         document.getElementById("c3pic").classList.remove("pic");
@@ -46,6 +46,8 @@ function rwd() {
     }
     if (document.body.clientWidth < 360) {
         document.getElementById("maintitle").style.fontSize = "10px";
+        document.getElementById("c2p").style.fontSize = "8px";
+        document.getElementById("about_title").style.fontSize = "8px";
     }
 }
 
