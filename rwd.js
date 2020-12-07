@@ -2,9 +2,10 @@
 function rwd() {
     console.log("偵測到螢幕寬度正在改變");
     console.log(document.body.clientWidth);
+
     if (document.body.clientWidth < 980) {
         console.log("md size");
-        document.getElementById("maintitle").style.fontSize = "30px";
+        document.getElementById("maintitle").style.fontSize = "20px";
         document.getElementById("c2p").style.fontSize = "22px";
 
         document.getElementById("c3pic").classList.remove("pic");
