@@ -44,6 +44,9 @@ function rwd() {
         document.getElementById("about_dd").classList.add("ad");
         document.getElementById("about_dd").classList.remove("nad");
     }
+    if (document.body.clientWidth < 360) {
+        document.getElementById("maintitle").style.fontSize = "10px";
+    }
 }
 
 window.addEventListener("resize", rwd);
