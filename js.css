@@ -164,7 +164,7 @@ body {
    margin-bottom: 30px;
     margin-left: 8%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 
@@ -245,23 +245,25 @@ body {
 }
 
 .c4 {
-    width: 730px;
-    margin-left: 130px;
-
+      
     opacity: 0;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 1.2s;
 }
-
-.c4 p {
+.c4area1{
+    display: flex;
+    justify-content: center;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
-    margin-left: 260px;
     opacity: 0;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 0.8s;
+}
+.carousel{
+    width: 80%;
+    margin: 0px auto;
 }
 
 .carousel-inner img {
@@ -371,6 +373,6 @@ hr {
     }
 }
 
-.c4,.c5,.c6,.c7,.introduction,.about {
+.c5,.c6,.c7,.introduction,.about {
     display: none;
 }

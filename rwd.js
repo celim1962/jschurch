@@ -14,6 +14,7 @@ function rwd() {
         document.getElementById("c3picfig").classList.add("sfig_pastor");
 
         document.getElementById("bible_part1").style.fontSize = "10px";
+        document.getElementById("c4title").style.fontSize = "20px";
     } else {
         console.log("lg size");
         document.getElementById("maintitle").style.fontSize = "40px";
@@ -26,6 +27,7 @@ function rwd() {
         document.getElementById("c3picfig").classList.remove("sfig_pastor");
 
         document.getElementById("bible_part1").style.fontSize = "20px";
+        document.getElementById("c4title").style.fontSize = "30px";
     }
 }
 
