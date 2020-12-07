@@ -44,7 +44,7 @@ function rwd() {
         document.getElementById("about_dd").classList.add("ad");
         document.getElementById("about_dd").classList.remove("nad");
     }
-    if (document.body.clientWidth < 400) {
+    if (document.body.clientWidth < 500) {
         document.getElementById("all").style.width = "95%";
         document.getElementById("maintitle").style.fontSize = "20px";
         document.getElementById("c2p").style.fontSize = "15px";
