@@ -65,7 +65,7 @@ body {
     width: 100px;
     margin-right:5%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly; 
     opacity: 0;
@@ -138,9 +138,12 @@ body {
 }
 
 .c2 {
-    /* border: 1px solid blue; */
+    
     height: 50px;
     opacity: 0;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 8%;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 1.3s;
@@ -148,43 +151,42 @@ body {
 
 .c2 p {
     /* border: 1px solid blue; */
-    width: 400px;
+    
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
-    margin: auto;
-    margin-top: 25px;
-    margin-left: 140px;
+    
 }
 
 .c3 {
     /* border: 1px solid blue; */
-    width: 830px;
     height: 300px;
-    margin: 30px 80px;
-    margin-left: 140px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+    margin-left: 8%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
 
 .c3 figcaption {
     font-size: 14px;
-    display: flex;
-    justify-content: center;
+    
 }
 
-.c3 figcaption span {
+.fig_pastor {
     font-size: 20px;
     font-family: '標楷體';
 }
-
+.sfig_pastor{
+    font-size: 15px;
+}
 .c3 p {
     /* border: 1px solid blue; */
     width: 500px;
-    height: 100px;
-    margin-top: 60px;
-    margin-left: 100px;
+    /* height: 100px; */
+    margin-top: 10px;
+    /* margin-left: 10%; */
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     opacity: 0;
@@ -215,7 +217,11 @@ body {
     height: 260px;
     border-radius: 10px;
 }
-
+.spic{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
 .introduction {
     width: 750px;
     margin-left: 18%;
@@ -365,6 +371,6 @@ hr {
     }
 }
 
-.c2,.c3,.c4,.c5,.c6,.c7,.introduction,.about {
+.c4,.c5,.c6,.c7,.introduction,.about {
     display: none;
 }
