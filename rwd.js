@@ -24,6 +24,8 @@ function rwd() {
         document.getElementById("about_dd").classList.add("nad");
     } else {
         console.log("lg size");
+        document.getElementById("all").style.width = "70%";
+
         document.getElementById("maintitle").style.fontSize = "40px";
         document.getElementById("c2p").style.fontSize = "30px";
 
