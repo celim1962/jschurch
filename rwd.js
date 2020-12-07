@@ -48,7 +48,7 @@ function rwd() {
         document.getElementById("all").style.width = "95%";
         document.getElementById("maintitle").style.fontSize = "20px";
         document.getElementById("c2p").style.fontSize = "15px";
-        document.getElementById("intro_p2").style.fontSize = "18px";
+        document.getElementById("intro_p2").style.fontSize = "12px";
         document.getElementById("about_title").style.fontSize = "15px";
     }
 }
