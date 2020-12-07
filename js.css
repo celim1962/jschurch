@@ -138,19 +138,19 @@ body {
 }
 
 .c2 {
-    
+   
     height: 50px;
     opacity: 0;
     margin: auto;
     margin-top: 25px;
-    margin-left: 8%;
+    margin-left: 10%;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 1.3s;
 }
 
 .c2 p {
-    /* border: 1px solid blue; */
+
     
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
@@ -159,10 +159,11 @@ body {
 
 .c3 {
     /* border: 1px solid blue; */
-    height: 300px;
+    width: 80%;
+    /* height: 300px; */
    margin-top: 10px;
    margin-bottom: 30px;
-    margin-left: 8%;
+    margin-left: 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -202,7 +203,7 @@ body {
 .picarea {
     /* border: 1px solid red; */
     width: 350px;
-    height: 350px;
+    /* height: 350px; */
     opacity: 0;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
@@ -223,15 +224,18 @@ body {
     border-radius: 10px;
 }
 .introduction {
-    width: 750px;
-    margin-left: 18%;
+    /* border:1px solid blue; */
+    width: 80%;
+    margin-left: 12%;
     margin-bottom: 50px;
     opacity: 0;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 2.2s;
 }
-
+.intro_p{
+    font-size: 10px;
+}
 .introduction p {
     font-family: 'Dancing Script', cursive;
 }
@@ -244,8 +248,7 @@ body {
     margin-left: 480px;
 }
 
-.c4 {
-      
+.c4 {  
     opacity: 0;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
@@ -273,7 +276,6 @@ body {
 }
 
 .prec5 {
-    /* border: 1px solid blue; */
     margin-left: 440px;
     margin-top: 60px;
     font-family: 'Dancing Script', cursive;
@@ -285,11 +287,7 @@ body {
 }
 
 .about {
-    width: 730px;
-    height: 230px;
-    margin-top: 30px;
-    margin-left: 140px;
-    opacity: 0;
+       opacity: 0;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 2.7s;
@@ -298,18 +296,30 @@ body {
 
 
 .about_title {
+    /* border: 1px solid black; */
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
-    margin-left: 220px;
+    display: flex;
+    justify-content:center;
+    /* margin-left: 220px; */
 }
 
 .about_detail {
+    /* border: 1px solid black; */
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
-    margin-left: 200px;
+  
+      display: flex;
+    justify-content: center;
+    /* margin-left: 200px; */
 }
 
-
+.ad{
+    font-size: 20px;
+}
+.nad{
+    font-size: 13px;
+}
 
 
 .c7 {
@@ -373,6 +383,3 @@ hr {
     }
 }
 
-.c5,.c6,.c7,.introduction,.about {
-    display: none;
-}
