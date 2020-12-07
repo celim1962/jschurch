@@ -1,0 +1,370 @@
+body {
+    background-color: gray;
+}
+
+.all {
+    background-color: white;
+    width: 1000px;
+    /* height: 2235px; */
+    margin: 0px auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.c1 {
+    /* border: 1px solid blue; */
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.area1 {
+    /* border: 1px solid red; */
+    width: 180px;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .4s;
+}
+
+.area1 a {
+    font-family: "微軟正黑體";
+    /* font-family: 'Lato', sans-serif; */
+    margin-left: 10px;
+    color: rgb(100, 93, 93);
+    /* border: 1px solid red; */
+
+}
+
+.area2 p {
+    width: 600px;
+
+    /* border: 1px  solid blue; */
+    /* font-family: "微軟正黑體"; */
+    font-size: 40px;
+    text-align: left;
+    margin-top: 45px;
+    font-family: 'Dancing Script', cursive;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .7s;
+}
+
+.area3 {
+    /* border: 1px solid black; */
+
+    width: 100px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+
+
+.area3 i {
+    font-size: 25px;
+    margin-left: 12px;
+}
+
+.area3 a {
+    color: black;
+}
+
+/* .area3 a {
+    color: none;
+} */
+
+/* .s1 {
+    color: none;
+} */
+
+.s1 {
+    color: blue;
+}
+
+.s1:hover {
+    color: black;
+    transition: .9s;
+
+}
+
+.s1:active {
+    color: blue;
+    transition: none;
+
+}
+
+.s2 {
+    color: red;
+}
+
+.s2:hover {
+    color: black;
+    transition: .9s;
+}
+
+.s2:active {
+    transition: none;
+    color: gray;
+}
+
+.s3:hover {
+    color: rgb(9, 128, 240);
+    transition: .9s;
+}
+
+.s3:active {
+    transition: none;
+    color: gray;
+}
+
+.s4:hover {
+    color: rgb(241, 35, 214);
+    transition: .9s;
+}
+
+.s4:active {
+    color: gray;
+    transition: none;
+}
+
+.c2 {
+    /* border: 1px solid blue; */
+    height: 50px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.3s;
+}
+
+.c2 p {
+    /* border: 1px solid blue; */
+    width: 400px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 140px;
+}
+
+.c3 {
+    /* border: 1px solid blue; */
+    width: 830px;
+    height: 300px;
+    margin: 30px 80px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.c3 figcaption {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.c3 figcaption span {
+    font-size: 20px;
+    font-family: '標楷體';
+}
+
+.c3 p {
+    /* border: 1px solid blue; */
+    width: 500px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.8s;
+}
+
+.c3 span {
+    font-family: 'Dancing Script', cursive;
+}
+
+.picarea {
+    /* border: 1px solid red; */
+    width: 350px;
+    height: 350px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.4s;
+}
+
+
+
+.pic {
+    /* border: 1px solid blue; */
+    width: 320px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.introduction {
+    width: 750px;
+    margin-left: 18%;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2.2s;
+}
+
+.introduction p {
+    font-family: 'Dancing Script', cursive;
+}
+
+.p1 {
+    margin-left: 40px;
+}
+
+.p2 {
+    margin-left: 480px;
+}
+
+.c4 {
+    width: 730px;
+    margin-left: 130px;
+
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;
+}
+
+.c4 p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-left: 260px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+
+.carousel-inner img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.prec5 {
+    /* border: 1px solid blue; */
+    margin-left: 440px;
+    margin-top: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+
+.about {
+    width: 730px;
+    height: 230px;
+    margin-top: 30px;
+    margin-left: 140px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 2.7s;
+}
+
+
+
+.about_title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-left: 220px;
+}
+
+.about_detail {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+
+
+
+.c7 {
+    /* border: 1px solid blue; */
+    width: 730px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left: 140px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    /* text-align: center; */
+}
+
+.c7 p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.c7 div {
+    margin-top: 8px;
+    margin-left: 210px;
+}
+
+.sb {
+    /* border: 1px solid blue; */
+    width: 80px;
+    margin-left: 535px;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: title 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f1 {
+    /* margin-left: 340px; */
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+hr {
+    margin: 1px;
+}
+
+@keyframes title {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
