@@ -4,7 +4,7 @@ body {
 
 .all {
     background-color: white;
-    width: 1000px;
+    width: 70%;
     /* height: 2235px; */
     margin: 0px auto;
     margin-top: 10px;
@@ -12,17 +12,17 @@ body {
 }
 
 .c1 {
-    /* border: 1px solid blue; */
-    width: 1000px;
+    
+    width: 100%;
     height: 100px;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
 
 }
 
-.area1 {
-    /* border: 1px solid red; */
+/* .area1 {
+     border: 1px solid red; 
     width: 180px;
     text-align: center;
     margin-top: 40px;
@@ -32,40 +32,42 @@ body {
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: .4s;
-}
+} */
 
-.area1 a {
+/* .area1 a {
     font-family: "微軟正黑體";
-    /* font-family: 'Lato', sans-serif; */
+     font-family: 'Lato', sans-serif; 
     margin-left: 10px;
     color: rgb(100, 93, 93);
-    /* border: 1px solid red; */
+     border: 1px solid red; 
 
-}
-
-.area2 p {
-    width: 600px;
-
-    /* border: 1px  solid blue; */
-    /* font-family: "微軟正黑體"; */
+} */
+.area2{
+     width: 100%;
+     display: flex; 
+     justify-content: center;
     font-size: 40px;
     text-align: left;
     margin-top: 45px;
-    font-family: 'Dancing Script', cursive;
     opacity: 0;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: .7s;
 }
+.area2 p {
+   
+    
+    font-family: 'Dancing Script', cursive;
+    
+}
 
 .area3 {
-    /* border: 1px solid black; */
-
     width: 100px;
+    margin-right:5%;
     text-align: center;
     margin-top: 50px;
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly; 
     opacity: 0;
     animation: title 1s ease-in-out;
     animation-fill-mode: forwards;
@@ -83,13 +85,7 @@ body {
     color: black;
 }
 
-/* .area3 a {
-    color: none;
-} */
 
-/* .s1 {
-    color: none;
-} */
 
 .s1 {
     color: blue;
@@ -367,4 +363,8 @@ hr {
     to {
         opacity: 1;
     }
+}
+
+.c2,.c3,.c4,.c5,.c6,.c7,.introduction,.about {
+    display: none;
 }
